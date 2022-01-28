@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Everything in the world displeases me: but, above all, my displeasure in everything displeases me. -->
+    <head>
+        <meta charset="UTF-8">
+        <title>MAD</title>
+    </head>
+
+    <style>
+        html, body {
+            height: 100vh;
+            width: 100vw;
+        }
+        body {
+            margin: 0;
+            background: rgb(2,0,36);
+            background: linear-gradient(171deg, rgba(2,0,36,1) 0%, rgba(29,30,194,1) 34%, rgba(255,0,220,1) 100%);
+        }
+
+        img, div {
+            width: 100px;
+            height: 100px;
+        }
+
+        .x {
+            -webkit-animation: x 13s linear infinite alternate;
+            animation: x 13s linear infinite alternate;
+        }
+
+        .y {
+            -webkit-animation: y 7s linear infinite alternate;
+            animation: y 7s linear infinite alternate;
+        }
+
+        @-webkit-keyframes x {
+            100% {
+                transform: translateX(calc(100vw - 100px));
+            }
+        }
+
+        @keyframes x {
+            100% {
+                transform: translateX(calc(100vw - 100px));
+            }
+        }
+        @-webkit-keyframes y {
+            100% {
+                transform: translateY(calc(100vh - 100px));
+            }
+        }
+        @keyframes y {
+            100% {
+                transform: translateY(calc(100vh - 100px));
+            }
+        }
+    </style>
+
+    <body>
+        <div class="x">
+            <img class="y" src="Breadcat.png" alt="Mutually Assured Destruction" />
+        </div>
+    </body>
+</html>
