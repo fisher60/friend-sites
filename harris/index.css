@@ -1,0 +1,43 @@
+html, body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #20232b;
+}
+
+.instrument-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.instrument {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 75%;
+}
+
+.string-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 15%;
+}
+
+.string {
+    width: 100%;
+    height: 10px;
+    background-color: black;
+}
+
+.octaveDisplay{
+    font-size: 2rem;
+    color: white;
+}
